@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gestión de citas</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #faebc9;
+            color: #000;
+        }
+        header {
+            background-color: #f4a823;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            height: 50px;
+        }
+        .left-logo {
+            left: 10px;
+        }
+        .right-logo {
+            right: 10px;
+        }
+        .flags {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .flags img {
+            height: 20px;
+            margin: 0 2px;
+        }
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #e19100;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            padding: 8px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 8px 12px;
+            background-color: #f4a823;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #d88f00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Gestión de citas de Extranjería y Notariales
+    </header>
+
+    <div class="flags">
+        <img src="https://flagcdn.com/es.svg" alt="España" />
+        <img src="https://flagcdn.com/mx.svg" alt="México" />
+        <img src="https://flagcdn.com/ar.svg" alt="Argentina" />
+        <img src="https://flagcdn.com/co.svg" alt="Colombia" />
+        <img src="https://flagcdn.com/ve.svg" alt="Venezuela" />
+        <img src="https://flagcdn.com/pe.svg" alt="Perú" />
+        <img src="https://flagcdn.com/bo.svg" alt="Bolivia" />
+        <img src="https://flagcdn.com/ec.svg" alt="Ecuador" />
+        <img src="https://flagcdn.com/py.svg" alt="Paraguay" />
+        <img src="https://flagcdn.com/uy.svg" alt="Uruguay" />
+        <img src="https://flagcdn.com/cu.svg" alt="Cuba" />
+        <img src="https://flagcdn.com/do.svg" alt="R. Dominicana" />
+        <img src="https://flagcdn.com/br.svg" alt="Brasil" />
+        <img src="https://flagcdn.com/hn.svg" alt="Honduras" />
+        <img src="https://flagcdn.com/gt.svg" alt="Guatemala" />
+        <img src="https://flagcdn.com/us.svg" alt="USA" />
+        <img src="https://flagcdn.com/fr.svg" alt="Francia" />
+        <img src="https://flagcdn.com/it.svg" alt="Italia" />
+        <img src="https://flagcdn.com/de.svg" alt="Alemania" />
+        <img src="https://flagcdn.com/pt.svg" alt="Portugal" />
+        <img src="https://flagcdn.com/ua.svg" alt="Ucrania" />
+        <img src="https://flagcdn.com/ma.svg" alt="Marruecos" />
+    </div>
+
+    <main>
+        <section>
+            <h2>Bienvenido</h2>
+            <p>Ofrecemos servicios para conseguir citas para trámites de extranjería en toda España, así como gestiones notariales.</p>
+        </section>
+
+        <section class="tramites">
+            <h2>Trámites disponibles</h2>
+            <ul>
+                <li>AUT. RESIDENCIA TEMPORAL POR CIRCUNS. EXCEPCIONALES POR ARRAIGO</li>
+                <li>AUTORIZACIÓN DE RESIDENCIA DE MENORES NACIDOS EN ESPAÑA, HIJOS DE RESIDENTES</li>
+                <li>FAMILIARES DE RESIDENTES COMUNITARIOS</li>
+                <li>REAGRUPACIÓN FAMILIAR</li>
+                <li>RENOVACIONES DE AUT. DE RESIDENCIA y/o AUT. DE RESIDENCIA Y TRABAJO</li>
+                <li>RESIDENCIA TEMPORAL DE FAMILIARES DE PERSONAS CON NACIONALIDAD ESPAÑOLA</li>
+                <li>ASIGNACIÓN DE N.I.E.</li>
+                <li>AUTORIZACIONES DE REGRESO</li>
+                <li>CERTIFICADOS DE CONCORDANCIA</li>
+                <li>RECOGIDA DE TARJETA DE IDENTIDAD DE EXTRANJERO (T.I.E.)</li>
+                <li>TÍTULOS DE VIAJE</li>
+                <li>EXPEDICIÓN/RENOVACIÓN DE DOCUMENTOS DE SOLICITANTES DE ASILO</li>
+                <li>CERTIFICADO DE REGISTRO DE CIUDADANO DE LA U.E.</li>
+                <li>CERTIFICADOS (DE RESIDENCIA, DE NO RESIDENCIA Y DE CONCORDANCIA)</li>
+                <li>EXPEDICIÓN DE CARTA DE INVITACIÓN</li>
+                <li>INFORMACIÓN DE TRÁMITES DE LA COMISARÍA DE POLICIA</li>
+                <li>CÉDULA DE INSCRIPCIÓN</li>
+                <li>UCRANIA: SOLICITUD PROTECCIÓN TEMPORAL DESPLAZADOS</li>
+                <li>TARJETA CONFLICTO UCRANIA</li>
+                <li>PRÓRROGA DE ESTANCIA</li>
+                <li>TOMA DE HUELLAS (EXPEDICIÓN DE TARJETA) INICIAL, RENOVACIÓN, DUPLICADO Y LEY 14/2013</li>
+            </ul>
+        </section>
+
+        <section class="notariales">
+            <h2>Gestiones Notariales</h2>
+            <p>Asesoría y obtención de citas para:</p>
+            <ul>
+                <li>Poderes Generales, Preventivos, Especiales, Para Pleitos</li>
+                <li>Autorizaciones</li>
+                <li>Actas de manifestaciones</li>
+                <li>Juras de nacionalidad</li>
+                <li>Matrimonios, Parejas de hecho, Divorcios</li>
+                <li>Disoluciones de pareja de hecho</li>
+                <li>Testamentos, Herencias, Donaciones</li>
+                <li>Compraventas, Cancelación de hipoteca</li>
+                <li>Constitución de sociedades</li>
+            </ul>
+        </section>
+
+
+        <div class="cta">
+                <h2>¿Necesitas una cita urgente?</h2>
+                <p>Contáctanos y gestionamos tu cita con rapidez y seguridad.</p>
+                <a href="https://wa.me/34676994545" class="boton">Contáctanos por WhatsApp</a>
+                <p style="margin-top:1rem;">Teléfono directo: <strong>+34 676 994 545</strong></p>
+                <p>Correo electrónico: <a href="mailto:citapreviabtsg@gmail.com">citapreviabtsg@gmail.com</a></p>
+        </div>
+
+        <div class="formulario">
+                <h2>Formulario de contacto</h2>
+                <form action="https://formspree.io/f/mgvyzoeg" method="POST">
+                  <p><input type="text" name="nombre" placeholder="Tu nombre" required></p>
+                  <p><input type="email" name="email" placeholder="Tu correo electrónico" required></p>
+                  <p><textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea></p>
+                  <p><input type="submit" value="Enviar mensaje"></p>
+                </form>
+ 
+                <p style="font-size: 0.9rem;">* También puedes escribirnos directamente a <a href="mailto:citapreviabtsg@gmail.com">citapreviabtsg@gmail.com</a></p>
+        </div>
+     </main>
+
+
+        <footer>
+          &copy; 2025 Gestión de Citas Extranjería. Todos los derechos reservados.
+        </footer>
+</body>
+</html>
